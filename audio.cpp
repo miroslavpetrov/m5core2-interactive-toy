@@ -40,7 +40,7 @@ void audio_init() {
   // Start bluetooth
   Serial.println("starting A2DP...");
   auto cfgA2DP = a2dpStream.defaultConfig(TX_MODE);
-  cfgA2DP.name = "ACTON II";
+  cfgA2DP.name = SPEAKER_NAME;
   a2dpStream.begin(cfgA2DP);
 
   // Set intial volume

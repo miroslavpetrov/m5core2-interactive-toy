@@ -10,7 +10,7 @@ When I was little I had this parrot toy which repeated my words with a funny voi
 The project uses M5Stack Core2, [LVGL 9](https://github.com/lvgl/lvgl) for UI, [arduino-audio-tools](https://github.com/pschatzmann/arduino-audio-tools) for sound processing and [ESP32 A2DP](https://github.com/pschatzmann/ESP32-A2DP) for streaming.
 
 ## How to connect to a Bluetooth speaker?
-Currently the name of the speaker is hardcoded in the audio.h file - #define SPEAKER_NAME "ACTON II"
+Currently the name of the speaker is hardcoded in the audio.h file - ```#define SPEAKER_NAME "ACTON II"```
 Once the device boots, press the pair button on the Bluetooth speaker and the 
 
 ## Generating character images

@@ -1,6 +1,8 @@
 # M5Stack Core2 Interactive Toy
 An interactive toy that changes the pitch of the user's voice and streams it over Bluetooth A2DP
 
+![img](https://github.com/miroslavpetrov/m5core2-interactive-toy/assets/25277610/32fe8bbe-cf02-439d-bd79-90cdc3d54dd6)
+
 ## Project description
 
 When I was little I had this parrot toy which repeated my words with a funny voice. I have great memories playing with this toy and I have decied to create a similar one for my kids. 
@@ -26,3 +28,4 @@ The voice is changed by manipulating the pitch of the sound input using the Pitc
 - [LVGL](https://github.com/lvgl/lvgl)
 - [Arduino-Audio-Tools](https://github.com/pschatzmann/arduino-audio-tools)
 - [ESP32 A2DP](https://github.com/pschatzmann/ESP32-A2DP)
+
